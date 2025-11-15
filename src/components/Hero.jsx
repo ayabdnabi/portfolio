@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../style'
 import { ComputersCanvas } from './canvas';
+import NintendoCanvas from './canvas/NintendoSwitch';
 
 const Hero = () => {
   return (
@@ -17,9 +18,8 @@ const Hero = () => {
               I develop 2D games, websites, and <br className='sm:block hidden' /> app prototypes 
             </p>
           </div>
-
       </div>
-    
+      <ComputersCanvas />
     </section>
   )
 }
