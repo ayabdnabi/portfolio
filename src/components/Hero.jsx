@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
 import { styles } from '../style'
 import { ComputersCanvas } from './canvas';
-import NintendoCanvas from './canvas/NintendoSwitch';
 
 const Hero = () => {
   return (
