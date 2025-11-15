@@ -28,6 +28,9 @@ const Computers = () => {
     </mesh>
   )
 }
+
+
+
 const ComputersCanvas = () => {
   return (
     <Canvas 
@@ -48,7 +51,6 @@ const ComputersCanvas = () => {
 
     </Canvas>
   )
-
 }
 
 export default ComputersCanvas;
